@@ -1,0 +1,9 @@
+{
+  "name": "Android Cloud",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/android-sdk:1": {}
+  },
+  "postCreateCommand": "bash setup.sh",
+  "forwardPorts": [6080]
+}
